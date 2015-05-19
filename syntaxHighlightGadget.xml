@@ -5,8 +5,8 @@
      <![CDATA[ 
        Hello, world!
 	<link href="http://alexgorbatchev.com/pub/sh/current/styles/shThemeDefault.css" rel="stylesheet" type="text/css" />
-      	<script src="http://alexgorbatchev.com/pub/sh/current/scripts/shCore.js" type="text/javascript"></script>
-      	<script src="http://alexgorbatchev.com/pub/sh/current/scripts/shAutoloader.js" type="text/javascript"></script>
+      	<script src="https://raw.githubusercontent.com/rkdunlop/syntaxHighlighterGadget/master/shAutoloader.jsshCore.js" type="text/javascript"></script>
+      	<script src="https://raw.githubusercontent.com/rkdunlop/syntaxHighlighterGadget/master/shAutoloader.js" type="text/javascript"></script>
 
 	<pre class="brush: js">
       	function foo()
