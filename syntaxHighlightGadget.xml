@@ -24,12 +24,12 @@
 		params[gadgets.io.RequestParameters.CONTENT_TYPE] = gadgets.io.ContentType.DOM;  
 		var url = prefs.getString("url");
 		console.log(url);
-		gadgets.io.makeRequest(url, response, params);
+		gadgets.io.makeRequest(url, response, params, 0);
 	}
 	
 	function response(obj) {
 		console.log(obj);
-		var str = obj.text;
+		var str = obj.data;
 		parser = new DOMParser();
 		htmlDoc = parser.parseFromString("str", "text/xml");
 		console.log(htmlDoc);
