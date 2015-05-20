@@ -35,7 +35,7 @@
 		console.log(htmlDoc);
 		code = htmlDoc.getElementsByTagName('pre');
 		console.log(code);
-		document.getElementById('content_div').innerHTML = code.innerHTML;
+		document.getElementById('content_div').innerHTML = str;
 	}
 	gadgets.util.registerOnLoadHandler(getHtml);
 	</script>
