@@ -21,7 +21,7 @@
 
 	function getHtml() {
 		var params = {};
-		params[gadgets.io.RequestParameters.CONTENT_TYPE] = gadgets.io.ContentType.DOM;  
+		params[gadgets.io.RequestParameters.CONTENT_TYPE] = gadgets.io.ContentType.TEXT;  
 		var url = prefs.getString("url");
 		console.log(url);
 		gadgets.io.makeRequest(url, response, params, 0);
