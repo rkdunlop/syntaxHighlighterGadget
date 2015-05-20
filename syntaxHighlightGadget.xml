@@ -32,6 +32,7 @@
 		var str = obj.text;
 		parser = new DOMParser();
 		htmlDoc = parser.parseFromString("str", "text/xml");
+		console.log(htmlDoc);
 		code = htmlDoc.getElementsByTagName('pre');
 		console.log(code);
 		document.getElementById('content_div').innerHTML = code.innerHTML;
