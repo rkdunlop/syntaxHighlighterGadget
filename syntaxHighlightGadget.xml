@@ -31,7 +31,7 @@
 		var str = obj.text;
 		parser = new DOMParser();
 		htmlDoc = parser.parseFromString("str", "text/xml");
-		code = htmlDoc.getElementByTagName('pre');
+		code = htmlDoc.getElementsByTagName('pre');
 		document.getElementById('content_div').innerHTML = code;
 	}
 	gadgets.util.registerOnLoadHandler(getHtml);
