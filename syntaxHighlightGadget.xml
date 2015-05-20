@@ -29,7 +29,10 @@
 	
 	function response(obj) {
 		var str = obj.text;
-		document.getElementById('content_div').innerHTML = str;
+		parser = new DOMParser();
+		htmlDoc = parser.parseFromString("str", "text/xml");
+		code = htmlDoc.getElementByTagName('pre');
+		document.getElementById('content_div').innerHTML = code;
 	}
 	gadgets.util.registerOnLoadHandler(getHtml);
 	</script>
