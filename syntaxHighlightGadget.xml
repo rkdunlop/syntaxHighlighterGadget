@@ -32,6 +32,7 @@
 		parser = new DOMParser();
 		htmlDoc = parser.parseFromString("str", "text/xml");
 		code = htmlDoc.getElementsByTagName('pre');
+		console.log(code);
 		document.getElementById('content_div').innerHTML = code.innerHTML;
 	}
 	gadgets.util.registerOnLoadHandler(getHtml);
