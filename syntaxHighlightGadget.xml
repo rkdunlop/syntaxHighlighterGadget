@@ -28,6 +28,7 @@
 	}
 	
 	function response(obj) {
+		console.log(obj);
 		var str = obj.text;
 		parser = new DOMParser();
 		htmlDoc = parser.parseFromString("str", "text/xml");
