@@ -4,7 +4,7 @@
   <UserPref name="url" display_name="Name" dataType="string" />
   <Content type="html">
      <![CDATA[ 
-       <div id="content_div>
+       <div id="content_div">
        	<pre class="brush: js">
       	function foo()
       	{
