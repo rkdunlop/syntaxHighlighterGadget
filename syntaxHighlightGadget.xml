@@ -8,7 +8,7 @@
 	<link href="https://rkdunlop.github.io/syntaxHighlighterGadget/styles/shCore.css" rel="stylesheet" type="text/css" />
 	<link href="https://rkdunlop.github.io/syntaxHighlighterGadget/styles/shThemeDefault.css" rel="stylesheet" type="text/css" />
       	<script src="https://rkdunlop.github.io/syntaxHighlighterGadget/js/shCore.js" type="text/javascript"></script>
-      	<script src="https://rkdunlop.github.io/syntaxHighlighterGadget/autoloader.js"></script>
+      	<script src="https://rkdunlop.github.io/syntaxHighlighterGadget/shAutoloader.js"></script>
 	<script type="text/javascript">
 	var prefs = new gadgets.Prefs();
 	
